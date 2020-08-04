@@ -12,13 +12,13 @@ Na página de Registro o usuário pode fazer o seu cadastro informando os seguin
 - E-mail;
 - Senha.
 
-Caso um dos campos esteja vazio é exibido um alerta informando ao usuário que é necessário preenchê-lo. Após o cadastro os dados do usuário são salvos em um banco de dados SQLite3.
+Após o cadastro os dados do usuário são salvos em um banco de dados SQLite3.
 
 Já na página de Login para que o usuário possa realizar o login no sistema são solicitados a ele os seguintes dados:
 - E-mail;
 - Senha.
 
-Esse e-mail e senha informados serão buscados no banco de dados para a validação, será verificado se eles existem e se estão relacionados, caso estejam corretos é feito o login do usuário no sistema por meio de um token JWT e ele tem acesso a página de "Home", mas se os dados informados não forem válidos para o login o usuário permanece na página de Login.
+Caso um dos campos esteja vazio é exibido um alerta informando ao usuário que é necessário preenchê-lo. O e-mail e senha informados serão buscados no banco de dados para a validação, será verificado se eles existem e se estão relacionados, caso estejam corretos é feito o login do usuário no sistema por meio de um token JWT e ele tem acesso a página de "Home", mas se os dados informados não forem válidos para o login o usuário permanece na página de Login.
 
 
 ## :computer: Tecnologias usadas:
